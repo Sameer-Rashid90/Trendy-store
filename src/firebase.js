@@ -98,18 +98,6 @@ const firebaseConfig = {
   appId: "1:822544037690:web:6748571028af43d4c74203",
   measurementId: "G-HLMW961080"
 };
-
-/* Example:
-const firebaseConfig = {
-  apiKey: "xxx",
-  authDomain: "xxx.firebaseapp.com",
-  projectId: "xxx",
-  storageBucket: "xxx.appspot.com",
-  messagingSenderId: "xxx",
-  appId: "xxx"
-};
-*/
-
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 export const db = getFirestore(app);
