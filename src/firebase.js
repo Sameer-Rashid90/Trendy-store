@@ -89,7 +89,15 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
-const firebaseConfig = REPLACE_WITH_FIREBASE_CONFIG;
+const firebaseConfig = {
+  apiKey: "AIzaSyDZDiQ_tSpagLYPQXTO0qZkuy8NBlkKIvc",
+  authDomain: "luxary-store.firebaseapp.com",
+  projectId: "luxary-store",
+  storageBucket: "luxary-store.firebasestorage.app",
+  messagingSenderId: "822544037690",
+  appId: "1:822544037690:web:6748571028af43d4c74203",
+  measurementId: "G-HLMW961080"
+};
 
 /* Example:
 const firebaseConfig = {
